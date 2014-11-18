@@ -37,6 +37,11 @@ def modulo(a, b):
 	return a % b
 
 
+
+#exponent function
+
+def exp(a,b):
+    return a**b
 # -------------------------------------------------------- #
 
 
@@ -72,7 +77,8 @@ while (True):
             print "Quotient: ", div(a, b)
 		elif (op == "%"):
 			print "Modulo: ", modulo(a, b)
-
+        elif (op == "**"):
+            print "Exponent: ", exp(a,b)
         else:
             print "Invalid operation..."
 
